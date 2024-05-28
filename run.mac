@@ -1,0 +1,26 @@
+#
+# Macro file for "scint_sim.cc"
+#
+/control/verbose 1
+###/control/cout/ignoreThreadsExcept 0
+###/run/numberOfThreads 2
+/run/verbose 1
+#
+/process/em/verbose 0
+/process/had/verbose 0
+#
+/run/initialize
+#
+# Set a very high time threshold to allow all decays to happen
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+#
+/gun/particle ion
+/gun/ion 82 212
+#
+/analysis/setFileName scint_sim
+/analysis/h1/set 6 500 0. 3. MeV
+/analysis/h1/setActivation 1 true 
+/analysis/h1/set 1 500 0. 3. MeV
+#
+/run/printProgress 1000
+/run/beamOn 100000

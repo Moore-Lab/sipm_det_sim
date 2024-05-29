@@ -125,6 +125,10 @@ void HistoManager::Book()
   analysis->CreateNtupleDColumn("Energy");    //column 0
   analysis->CreateNtupleDColumn("Time");      //column 1
   analysis->CreateNtupleDColumn("Weight");    //column 2
+  analysis->CreateNtupleDColumn("x");         //column 3
+  analysis->CreateNtupleDColumn("y");         //column 4
+  analysis->CreateNtupleDColumn("z");         //column 5
+  analysis->CreateNtupleIColumn("VolumeID");  //column 6
   analysis->FinishNtuple();
   
   analysis->CreateNtuple("RDecayProducts", "All Products of RDecay");

@@ -846,10 +846,9 @@ CMakeFiles/scint_sim.dir/scint_sim.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/ActionInitialization.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorConstruction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/PhysicsList.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/scint_sim.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/ActionInitialization.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorConstruction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/PhysicsList.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -2083,13 +2082,12 @@ CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/ActionInitialization.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/EventAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/PrimaryGeneratorAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/RunAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/SteppingAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/TrackingAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/ActionInitialization.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/ActionInitialization.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/EventAction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/PrimaryGeneratorAction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/RunAction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/SteppingAction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/TrackingAction.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Utility/defs.h
@@ -2970,8 +2968,7 @@ CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/BiasedRDPhysics.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/BiasedRDPhysics.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/BiasedRDPhysics.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -4031,9 +4028,8 @@ CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorConstruction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorMessenger.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/DetectorConstruction.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorConstruction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorMessenger.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -5113,9 +5109,8 @@ CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorConstruction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorMessenger.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/DetectorMessenger.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorConstruction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorMessenger.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Utility/defs.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Vector/ThreeVector.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
@@ -5963,10 +5958,9 @@ CMakeFiles/scint_sim.dir/src/EventAction.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/EventAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/HistoManager.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/Run.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/EventAction.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/EventAction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/HistoManager.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/Run.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -7098,8 +7092,7 @@ CMakeFiles/scint_sim.dir/src/HistoManager.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/HistoManager.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/HistoManager.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/HistoManager.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Utility/defs.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Vector/ThreeVector.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
@@ -8028,9 +8021,8 @@ CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/BiasedRDPhysics.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/PhysicsList.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/PhysicsList.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/BiasedRDPhysics.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/PhysicsList.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -9218,8 +9210,7 @@ CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/PrimaryGeneratorAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/PrimaryGeneratorAction.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/PrimaryGeneratorAction.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Random/DualRand.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Random/JamesRandom.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -10162,11 +10153,10 @@ CMakeFiles/scint_sim.dir/src/Run.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorConstruction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/HistoManager.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/PrimaryGeneratorAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/Run.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/Run.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorConstruction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/HistoManager.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/PrimaryGeneratorAction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/Run.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -11263,12 +11253,11 @@ CMakeFiles/scint_sim.dir/src/RunAction.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorConstruction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/HistoManager.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/PrimaryGeneratorAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/Run.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/RunAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/RunAction.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorConstruction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/HistoManager.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/PrimaryGeneratorAction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/Run.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/RunAction.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -12406,12 +12395,11 @@ CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorConstruction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/EventAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/HistoManager.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/Run.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/SteppingAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/SteppingAction.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorConstruction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/EventAction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/HistoManager.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/Run.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/SteppingAction.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -13546,11 +13534,10 @@ CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/DetectorConstruction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/HistoManager.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/Run.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/include/TrackingAction.hh
- /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/TrackingAction.cc
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/DetectorConstruction.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/HistoManager.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/Run.hh
+ /Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/include/TrackingAction.hh
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /Users/dcmoore/geant4-v11.0.0-install/include/Geant4/CLHEP/Geometry/Point3D.h

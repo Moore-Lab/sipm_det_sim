@@ -77,12 +77,16 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
   G4double time   = aStep->GetPreStepPoint()->GetGlobalTime();
   G4double weight = aStep->GetPreStepPoint()->GetWeight();   
   fEventAction->AddEdep(iVol, edepStep, time, weight);
-  
+
   //fill ntuple id = 2
   G4int id = 2;   
   analysisManager->FillNtupleDColumn(id,0, edepStep);
   analysisManager->FillNtupleDColumn(id,1, time/s);
   analysisManager->FillNtupleDColumn(id,2, weight);
+  analysisManager->FillNtupleDColumn(id,3, endPoint->GetPosition().x());
+  analysisManager->FillNtupleDColumn(id,4, endPoint->GetPosition().y());
+  analysisManager->FillNtupleDColumn(id,5, endPoint->GetPosition().z());
+  analysisManager->FillNtupleIColumn(id,6, iVol);
   analysisManager->AddNtupleRow(id);      
 }
 

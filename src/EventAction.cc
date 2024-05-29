@@ -41,8 +41,9 @@
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void EventAction::BeginOfEventAction(const G4Event*)
+void EventAction::BeginOfEventAction(const G4Event* evt)
 {
+  fEvent = evt->GetEventID();
   fEdep1 = fEdep2 = fWeight1 = fWeight2 = 0.;
   fTime0 = -1*s;
 }

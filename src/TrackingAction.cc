@@ -58,6 +58,9 @@ void TrackingAction::PreUserTrackingAction(const G4Track* track)
   
   G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
 
+  G4RunManager* runManager = G4RunManager::GetRunManager();  
+  G4int eventID = runManager->GetCurrentEvent()->GetEventID();
+
   //which volume ?
   //
   G4LogicalVolume* lVolume = track->GetVolume()->GetLogicalVolume();
@@ -77,6 +80,8 @@ void TrackingAction::PreUserTrackingAction(const G4Track* track)
   G4double energy = track->GetKineticEnergy();
   G4double time   = track->GetGlobalTime();
   G4double weight = track->GetWeight();
+  G4int tid       = track->GetTrackID();
+  G4int parent    = track->GetParentID();
   
   run->ParticleCount(name,energy,iVol);
   
@@ -91,6 +96,9 @@ void TrackingAction::PreUserTrackingAction(const G4Track* track)
     analysisManager->FillNtupleDColumn(id,3, energy);
     analysisManager->FillNtupleDColumn(id,4, time/s);
     analysisManager->FillNtupleDColumn(id,5, weight);
+    analysisManager->FillNtupleIColumn(id,6, parent);    
+    analysisManager->FillNtupleIColumn(id,7, tid);
+    analysisManager->FillNtupleIColumn(id,8, eventID);
     analysisManager->AddNtupleRow(id);
     
     if (charge < 3.) {   
@@ -100,6 +108,7 @@ void TrackingAction::PreUserTrackingAction(const G4Track* track)
       analysisManager->FillNtupleDColumn(id,1, energy);
       analysisManager->FillNtupleDColumn(id,2, time/s);
       analysisManager->FillNtupleDColumn(id,3, weight);
+      analysisManager->FillNtupleIColumn(id,4, eventID);
       analysisManager->AddNtupleRow(id);
     
       analysisManager->FillH1(6, energy, weight);
@@ -116,6 +125,7 @@ void TrackingAction::PreUserTrackingAction(const G4Track* track)
     analysisManager->FillNtupleDColumn(id,0, double(pid));
     analysisManager->FillNtupleDColumn(id,1, time/s);
     analysisManager->FillNtupleDColumn(id,2, weight);
+    analysisManager->FillNtupleIColumn(id,3, eventID);
     analysisManager->AddNtupleRow(id);  
   }
 }

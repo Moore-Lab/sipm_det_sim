@@ -113,12 +113,14 @@ void HistoManager::Book()
   analysis->CreateNtupleDColumn("Energy");    //column 1
   analysis->CreateNtupleDColumn("Time");      //column 2
   analysis->CreateNtupleDColumn("Weight");    //column 3
+  analysis->CreateNtupleIColumn("EventID");   //column 4
   analysis->FinishNtuple();
   
   analysis->CreateNtuple("T2", "RadioIsotopes");
   analysis->CreateNtupleDColumn("PID");       //column 0
   analysis->CreateNtupleDColumn("Time");      //column 1
   analysis->CreateNtupleDColumn("Weight");    //column 2
+  analysis->CreateNtupleIColumn("EventID");   //column 3
   analysis->FinishNtuple();
   
   analysis->CreateNtuple("T3", "Energy depositions");
@@ -129,6 +131,8 @@ void HistoManager::Book()
   analysis->CreateNtupleDColumn("y");         //column 4
   analysis->CreateNtupleDColumn("z");         //column 5
   analysis->CreateNtupleIColumn("VolumeID");  //column 6
+  analysis->CreateNtupleIColumn("TrackID");   //column 7
+  analysis->CreateNtupleIColumn("EventID");   //column 8
   analysis->FinishNtuple();
   
   analysis->CreateNtuple("RDecayProducts", "All Products of RDecay");
@@ -138,6 +142,9 @@ void HistoManager::Book()
   analysis->CreateNtupleDColumn("Energy");    //column 3
   analysis->CreateNtupleDColumn("Time");      //column 4
   analysis->CreateNtupleDColumn("Weight");    //column 5
+  analysis->CreateNtupleIColumn("ParentID");  //column 6
+  analysis->CreateNtupleIColumn("TrackID");   //column 7
+  analysis->CreateNtupleIColumn("EventID");   //column 8
   analysis->FinishNtuple();
   
   analysis->SetNtupleActivation(true);          

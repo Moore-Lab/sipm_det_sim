@@ -55,6 +55,7 @@ class EventAction : public G4UserEventAction
     G4double fEdep1 = 0.,   fEdep2 = 0.;
     G4double fWeight1 = 0., fWeight2 = 0.;
     G4double fTime0 = -1*s;    
+    G4int   fEvent = 0;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

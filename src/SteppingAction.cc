@@ -55,6 +55,11 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
         G4RunManager::GetRunManager()->GetNonConstCurrentRun());    
   
   G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+  G4RunManager* runManager = G4RunManager::GetRunManager();  
+
+  G4int eventID = runManager->GetCurrentEvent()->GetEventID();
+ 
+  G4int tid = aStep->GetTrack()->GetTrackID();  
 
   //which volume ?
   //
@@ -87,6 +92,8 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
   analysisManager->FillNtupleDColumn(id,4, endPoint->GetPosition().y());
   analysisManager->FillNtupleDColumn(id,5, endPoint->GetPosition().z());
   analysisManager->FillNtupleIColumn(id,6, iVol);
+  analysisManager->FillNtupleIColumn(id,7, tid);
+  analysisManager->FillNtupleIColumn(id,8, eventID);
   analysisManager->AddNtupleRow(id);      
 }
 

@@ -1,7 +1,7 @@
-/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles/scint_sim.dir
-/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles/edit_cache.dir
-/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles/rebuild_cache.dir
-/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles/list_install_components.dir
-/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles/install.dir
-/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles/install/local.dir
-/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles/install/strip.dir
+/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles/scint_sim.dir
+/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles/edit_cache.dir
+/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles/rebuild_cache.dir
+/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles/list_install_components.dir
+/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles/install.dir
+/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles/install/local.dir
+/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles/install/strip.dir

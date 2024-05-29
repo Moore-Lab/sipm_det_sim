@@ -54,10 +54,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim"
+CMAKE_SOURCE_DIR = "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim"
+CMAKE_BINARY_DIR = "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/scint_sim.dir/clean
 CMakeFiles/scint_sim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scint_sim.dir/build.make CMakeFiles/scint_sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scint_sim.dir/build.make CMakeFiles/scint_sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target scint_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target scint_sim"
 .PHONY : CMakeFiles/scint_sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scint_sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" 14
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/scint_sim.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" 0
 .PHONY : CMakeFiles/scint_sim.dir/rule
 
 # Convenience name for target.

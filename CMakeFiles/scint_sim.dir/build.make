@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim"
+CMAKE_SOURCE_DIR = "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim"
+CMAKE_BINARY_DIR = "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/scint_sim.dir/depend.make
@@ -72,184 +72,184 @@ include CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/scint_sim.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/scint_sim.cc.o: scint_sim.cc
 CMakeFiles/scint_sim.dir/scint_sim.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scint_sim.dir/scint_sim.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/scint_sim.cc.o -MF CMakeFiles/scint_sim.dir/scint_sim.cc.o.d -o CMakeFiles/scint_sim.dir/scint_sim.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/scint_sim.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scint_sim.dir/scint_sim.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/scint_sim.cc.o -MF CMakeFiles/scint_sim.dir/scint_sim.cc.o.d -o CMakeFiles/scint_sim.dir/scint_sim.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/scint_sim.cc"
 
 CMakeFiles/scint_sim.dir/scint_sim.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/scint_sim.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/scint_sim.cc" > CMakeFiles/scint_sim.dir/scint_sim.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/scint_sim.cc" > CMakeFiles/scint_sim.dir/scint_sim.cc.i
 
 CMakeFiles/scint_sim.dir/scint_sim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/scint_sim.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/scint_sim.cc" -o CMakeFiles/scint_sim.dir/scint_sim.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/scint_sim.cc" -o CMakeFiles/scint_sim.dir/scint_sim.cc.s
 
 CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o: src/ActionInitialization.cc
 CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o -MF CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/ActionInitialization.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o -MF CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/ActionInitialization.cc"
 
 CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/ActionInitialization.cc" > CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/ActionInitialization.cc" > CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/ActionInitialization.cc" -o CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/ActionInitialization.cc" -o CMakeFiles/scint_sim.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o: src/BiasedRDPhysics.cc
 CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o -MF CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o.d -o CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/BiasedRDPhysics.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o -MF CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o.d -o CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/BiasedRDPhysics.cc"
 
 CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/BiasedRDPhysics.cc" > CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/BiasedRDPhysics.cc" > CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.i
 
 CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/BiasedRDPhysics.cc" -o CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/BiasedRDPhysics.cc" -o CMakeFiles/scint_sim.dir/src/BiasedRDPhysics.cc.s
 
 CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o: src/DetectorConstruction.cc
 CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/DetectorConstruction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/DetectorConstruction.cc"
 
 CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/DetectorConstruction.cc" > CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/DetectorConstruction.cc" > CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/DetectorConstruction.cc" -o CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/DetectorConstruction.cc" -o CMakeFiles/scint_sim.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o: src/DetectorMessenger.cc
 CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o -MF CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o.d -o CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/DetectorMessenger.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o -MF CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o.d -o CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/DetectorMessenger.cc"
 
 CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/DetectorMessenger.cc" > CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/DetectorMessenger.cc" > CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.i
 
 CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/DetectorMessenger.cc" -o CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/DetectorMessenger.cc" -o CMakeFiles/scint_sim.dir/src/DetectorMessenger.cc.s
 
 CMakeFiles/scint_sim.dir/src/EventAction.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/EventAction.cc.o: src/EventAction.cc
 CMakeFiles/scint_sim.dir/src/EventAction.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/scint_sim.dir/src/EventAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/EventAction.cc.o -MF CMakeFiles/scint_sim.dir/src/EventAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/EventAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/EventAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/scint_sim.dir/src/EventAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/EventAction.cc.o -MF CMakeFiles/scint_sim.dir/src/EventAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/EventAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/EventAction.cc"
 
 CMakeFiles/scint_sim.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/EventAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/EventAction.cc" > CMakeFiles/scint_sim.dir/src/EventAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/EventAction.cc" > CMakeFiles/scint_sim.dir/src/EventAction.cc.i
 
 CMakeFiles/scint_sim.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/EventAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/EventAction.cc" -o CMakeFiles/scint_sim.dir/src/EventAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/EventAction.cc" -o CMakeFiles/scint_sim.dir/src/EventAction.cc.s
 
 CMakeFiles/scint_sim.dir/src/HistoManager.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/HistoManager.cc.o: src/HistoManager.cc
 CMakeFiles/scint_sim.dir/src/HistoManager.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/scint_sim.dir/src/HistoManager.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/HistoManager.cc.o -MF CMakeFiles/scint_sim.dir/src/HistoManager.cc.o.d -o CMakeFiles/scint_sim.dir/src/HistoManager.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/HistoManager.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/scint_sim.dir/src/HistoManager.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/HistoManager.cc.o -MF CMakeFiles/scint_sim.dir/src/HistoManager.cc.o.d -o CMakeFiles/scint_sim.dir/src/HistoManager.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/HistoManager.cc"
 
 CMakeFiles/scint_sim.dir/src/HistoManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/HistoManager.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/HistoManager.cc" > CMakeFiles/scint_sim.dir/src/HistoManager.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/HistoManager.cc" > CMakeFiles/scint_sim.dir/src/HistoManager.cc.i
 
 CMakeFiles/scint_sim.dir/src/HistoManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/HistoManager.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/HistoManager.cc" -o CMakeFiles/scint_sim.dir/src/HistoManager.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/HistoManager.cc" -o CMakeFiles/scint_sim.dir/src/HistoManager.cc.s
 
 CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o: src/PhysicsList.cc
 CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o -MF CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o.d -o CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/PhysicsList.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o -MF CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o.d -o CMakeFiles/scint_sim.dir/src/PhysicsList.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/PhysicsList.cc"
 
 CMakeFiles/scint_sim.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/PhysicsList.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/PhysicsList.cc" > CMakeFiles/scint_sim.dir/src/PhysicsList.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/PhysicsList.cc" > CMakeFiles/scint_sim.dir/src/PhysicsList.cc.i
 
 CMakeFiles/scint_sim.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/PhysicsList.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/PhysicsList.cc" -o CMakeFiles/scint_sim.dir/src/PhysicsList.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/PhysicsList.cc" -o CMakeFiles/scint_sim.dir/src/PhysicsList.cc.s
 
 CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o: src/PrimaryGeneratorAction.cc
 CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/PrimaryGeneratorAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/PrimaryGeneratorAction.cc"
 
 CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/PrimaryGeneratorAction.cc" > CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/PrimaryGeneratorAction.cc" > CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/PrimaryGeneratorAction.cc" -o CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/PrimaryGeneratorAction.cc" -o CMakeFiles/scint_sim.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/scint_sim.dir/src/Run.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/Run.cc.o: src/Run.cc
 CMakeFiles/scint_sim.dir/src/Run.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/scint_sim.dir/src/Run.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/Run.cc.o -MF CMakeFiles/scint_sim.dir/src/Run.cc.o.d -o CMakeFiles/scint_sim.dir/src/Run.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/Run.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/scint_sim.dir/src/Run.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/Run.cc.o -MF CMakeFiles/scint_sim.dir/src/Run.cc.o.d -o CMakeFiles/scint_sim.dir/src/Run.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/Run.cc"
 
 CMakeFiles/scint_sim.dir/src/Run.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/Run.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/Run.cc" > CMakeFiles/scint_sim.dir/src/Run.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/Run.cc" > CMakeFiles/scint_sim.dir/src/Run.cc.i
 
 CMakeFiles/scint_sim.dir/src/Run.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/Run.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/Run.cc" -o CMakeFiles/scint_sim.dir/src/Run.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/Run.cc" -o CMakeFiles/scint_sim.dir/src/Run.cc.s
 
 CMakeFiles/scint_sim.dir/src/RunAction.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/RunAction.cc.o: src/RunAction.cc
 CMakeFiles/scint_sim.dir/src/RunAction.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/scint_sim.dir/src/RunAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/RunAction.cc.o -MF CMakeFiles/scint_sim.dir/src/RunAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/RunAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/RunAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/scint_sim.dir/src/RunAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/RunAction.cc.o -MF CMakeFiles/scint_sim.dir/src/RunAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/RunAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/RunAction.cc"
 
 CMakeFiles/scint_sim.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/RunAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/RunAction.cc" > CMakeFiles/scint_sim.dir/src/RunAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/RunAction.cc" > CMakeFiles/scint_sim.dir/src/RunAction.cc.i
 
 CMakeFiles/scint_sim.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/RunAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/RunAction.cc" -o CMakeFiles/scint_sim.dir/src/RunAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/RunAction.cc" -o CMakeFiles/scint_sim.dir/src/RunAction.cc.s
 
 CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o: src/SteppingAction.cc
 CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o -MF CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/SteppingAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o -MF CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/SteppingAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/SteppingAction.cc"
 
 CMakeFiles/scint_sim.dir/src/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/SteppingAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/SteppingAction.cc" > CMakeFiles/scint_sim.dir/src/SteppingAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/SteppingAction.cc" > CMakeFiles/scint_sim.dir/src/SteppingAction.cc.i
 
 CMakeFiles/scint_sim.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/SteppingAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/SteppingAction.cc" -o CMakeFiles/scint_sim.dir/src/SteppingAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/SteppingAction.cc" -o CMakeFiles/scint_sim.dir/src/SteppingAction.cc.s
 
 CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o: CMakeFiles/scint_sim.dir/flags.make
 CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o: src/TrackingAction.cc
 CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o: CMakeFiles/scint_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o -MF CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/TrackingAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o -MF CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o.d -o CMakeFiles/scint_sim.dir/src/TrackingAction.cc.o -c "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/TrackingAction.cc"
 
 CMakeFiles/scint_sim.dir/src/TrackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scint_sim.dir/src/TrackingAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/TrackingAction.cc" > CMakeFiles/scint_sim.dir/src/TrackingAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/TrackingAction.cc" > CMakeFiles/scint_sim.dir/src/TrackingAction.cc.i
 
 CMakeFiles/scint_sim.dir/src/TrackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scint_sim.dir/src/TrackingAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/src/TrackingAction.cc" -o CMakeFiles/scint_sim.dir/src/TrackingAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/src/TrackingAction.cc" -o CMakeFiles/scint_sim.dir/src/TrackingAction.cc.s
 
 # Object files for target scint_sim
 scint_sim_OBJECTS = \
@@ -334,7 +334,7 @@ scint_sim: /Users/dcmoore/geant4-v11.0.0-install/lib/libG4global.dylib
 scint_sim: /Users/dcmoore/geant4-v11.0.0-install/lib/libG4clhep.dylib
 scint_sim: /Users/dcmoore/geant4-v11.0.0-install/lib/libG4ptl.2.3.3.dylib
 scint_sim: CMakeFiles/scint_sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable scint_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable scint_sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scint_sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -346,6 +346,6 @@ CMakeFiles/scint_sim.dir/clean:
 .PHONY : CMakeFiles/scint_sim.dir/clean
 
 CMakeFiles/scint_sim.dir/depend:
-	cd "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/scint_det_sim/CMakeFiles/scint_sim.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim" "/Users/dcmoore/Library/CloudStorage/GoogleDrive-david.c.moore@yale.edu/My Drive/yale/uspheres/particle_detectors/geant/sipm_det_sim/CMakeFiles/scint_sim.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/scint_sim.dir/depend
 
